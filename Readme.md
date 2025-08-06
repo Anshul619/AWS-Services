@@ -24,7 +24,7 @@
             <div>
                 <a href="16_NetworkingAndContentDelivery/1_EdgeNetworking/AmazonRoute53/Readme.md" target="_blank">
                   Route 53
-                </a>
+                </a>,
                 <a href="16_NetworkingAndContentDelivery/2_ApplicationNetworking/AWSCloudMap.md" target="_blank">
                   Cloud Map
                 </a>
@@ -86,7 +86,7 @@
         <div class="container" style="background:white">
             <div>
                 <a href="16_NetworkingAndContentDelivery/1_EdgeNetworking/AmazonCloudFront.md" target="_blank">
-                  <img src="https://ericknavarro.io/images/thumbnails/12.png" width="400">
+                  Amazon CloudFront
                 </a>
                 <a href="6_FileStorages/3_ObjectStorageS3/Readme.md" target="_blank">
                   <img src="https://miro.medium.com/max/580/1*DHe24MbDHtbkOeIJzxrfdA.png" width="150">
@@ -179,7 +179,7 @@
                   <img src="https://miro.medium.com/max/720/0*QjKNs9dEShlQ39VI.png" width="150">
                 </a>
                 <a href="4_MessageBrokers/AmazonMSK.md" target="_blank">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcjocd4vh1S29xvfJ_bjgJWb-SR5SzW2Dz2A&usqp=CAU" width="100">
+                  Amazon MSK
                 </a>
                 <a href="4_MessageBrokers/AmazonKinesis/Readme.md" target="_blank">
                   <img src="https://intellipaat.com/blog/wp-content/uploads/2022/08/image-75.png" width="100">
@@ -281,7 +281,7 @@
                   <img src="https://miro.medium.com/max/960/1*kHVLIuXPyE0HAEO0HZ6kwg.webp" width="150">
                 </a>
                 <a href="8_ObservabilityLogs/AWSCloudTrail.md" target="_blank">
-                  <img src="https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2022/02/feature.png?w=360&ssl=1" width="150">
+                  AWS CloudTrail
                 </a>
             </div>
         </td>
