@@ -21,7 +21,7 @@
 | :star: [Application Load Balancer](../../16_NetworkingAndContentDelivery/2_ApplicationNetworking/ElasticLoadBalancer/Readme.md) |
 | :star: [Amazon API Gateway API](../../16_NetworkingAndContentDelivery/2_ApplicationNetworking/AmazonAPIGateway/Readme.md)       |
 | [AWS AppSync GraphQL API](../../16_NetworkingAndContentDelivery/2_ApplicationNetworking/AWSAppSync.md)                          |
-| [Amazon Cognito user pool](../../7_IdentityManagement/AWSDirectoryServices/AmazonCognito.md)                                    |
+| [Amazon Cognito user pool](../../7_IdentityManagement/AWSDirectory/AmazonCognito.md)                                    |
 
 # Configurable Conditions
 
