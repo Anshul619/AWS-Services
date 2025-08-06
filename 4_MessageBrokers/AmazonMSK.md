@@ -1,4 +1,4 @@
 
 # Amazon Managed Streaming for Kafka (MSK)
-- [Amazon Managed Streaming for Kafka (MSK)](https://aws.amazon.com/msk/) can be used to deploy [Kafka](../../HLD-System-Designs/4_MessageBrokersEDA/Kafka/Readme.md) on AWS.
-- [Comparison between Various Message Brokers](../../HLD-System-Designs/4_MessageBrokersEDA/KafkaVsRabbitMQVsSQSVsSNS.md)
+- [Amazon Managed Streaming for Kafka (MSK)](https://aws.amazon.com/msk/) can be used to deploy [Kafka](https://github.com/Anshul619/HLD-System-Designs/blob/main/4_MessageBrokersEDA/Kafka/Readme.md) on AWS.
+- [Comparison between Various Message Brokers](https://github.com/Anshul619/HLD-System-Designs/blob/main/4_MessageBrokersEDA/KafkaVsRabbitMQVsSQSVsSNS.md)

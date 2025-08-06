@@ -1,7 +1,7 @@
 # Amazon EMR
 - [Amazon EMR](https://aws.amazon.com/emr/) is a managed service that lets you process and analyze large datasets using the latest versions of big data processing frameworks.
-- With EMR you can run Petabyte-scale analysis at less than half of the cost of traditional on-premises solutions and over 3x faster than standard [Apache Spark](../../../HLD-System-Designs/6_BigData/DataProcessing/ApacheSpark/Readme.md). 
-- Amazon EMR uses [Hadoop, an open-source framework](../../../HLD-System-Designs/6_BigData/ApacheHadoop/Readme.md), to distribute your data and processing across a resizable cluster of [Amazon EC2 instances](../../2_Compute/AmazonEC2/Readme.md).
+- With EMR you can run Petabyte-scale analysis at less than half of the cost of traditional on-premises solutions and over 3x faster than standard [Apache Spark](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/DataProcessing/ApacheSpark/Readme.md). 
+- Amazon EMR uses [Hadoop, an open-source framework](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/ApacheHadoop/Readme.md), to distribute your data and processing across a resizable cluster of [Amazon EC2 instances](../../2_Compute/AmazonEC2/Readme.md).
 
 ![](https://fathomtech.io/blog/aws-emr-versus-glue/How-aws-emr-works.png)
 
@@ -9,14 +9,14 @@
 
 | Service                                                                                                                                                           |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Apache Spark](../../../HLD-System-Designs/6_BigData/DataProcessing/ApacheSpark/Readme.md)                                                                                   |
-| [Apache Hadoop](../../../HLD-System-Designs/6_BigData/ApacheHadoop/Readme.md)                                                                                                |
-| [HBase](../../../HLD-System-Designs/3_Databases/11_WideColumn-Databases/ApacheHBase.md)                                                                                       |
-| [Hive](../../../HLD-System-Designs/6_BigData/DataConsumption/ApacheHive.md), [Presto](../../../HLD-System-Designs/6_BigData/DataConsumption/PrestoDB.md), and other big data workloads. |
+| [Apache Spark](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/DataProcessing/ApacheSpark/Readme.md)                                                                                   |
+| [Apache Hadoop](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/ApacheHadoop/Readme.md)                                                                                                |
+| [HBase](https://github.com/Anshul619/HLD-System-Designs/blob/main/3_Databases/11_WideColumn-Databases/ApacheHBase.md)                                                                                       |
+| [Hive](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/DataConsumption/ApacheHive.md), [Presto](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/DataConsumption/PrestoDB.md), and other big data workloads. |
 
 # EMR File System (EMRFS)
-- The [EMR File System (EMRFS)](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-fs.html) is an implementation of [HDFS](../../../HLD-System-Designs/11_FileStorages/ApacheHDFS.md) that all Amazon EMR clusters use for reading and writing regular files from [Amazon EMR]() directly to [Amazon S3](../../6_FileStorages/3_S3ObjectStorage/Readme.md). 
-- [EMRFS](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-fs.html) provides the convenience of storing persistent data in [Amazon S3](../../6_FileStorages/3_S3ObjectStorage/Readme.md) for use with [Hadoop](../../../HLD-System-Designs/6_BigData/ApacheHadoop/Readme.md) while also providing features like data encryption.
+- The [EMR File System (EMRFS)](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-fs.html) is an implementation of [HDFS](https://github.com/Anshul619/HLD-System-Designs/blob/main/11_FileStorages/ApacheHDFS.md) that all Amazon EMR clusters use for reading and writing regular files from [Amazon EMR]() directly to [Amazon S3](../../6_FileStorages/3_S3ObjectStorage/Readme.md). 
+- [EMRFS](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-fs.html) provides the convenience of storing persistent data in [Amazon S3](../../6_FileStorages/3_S3ObjectStorage/Readme.md) for use with [Hadoop](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/ApacheHadoop/Readme.md) while also providing features like data encryption.
 
 # Node Types
 

@@ -3,4 +3,4 @@
 
 # Database Choices
 - [Amazon Timestream for LiveAnalytics](https://docs.aws.amazon.com/timestream/latest/developerguide/what-is-timestream.html)
-- [Amazon Timestream for InfluxDB](../../HLD-System-Designs/3_Databases/12_TimeSeries-Databases/InfluxDB.md)
+- [Amazon Timestream for InfluxDB](https://github.com/Anshul619/HLD-System-Designs/blob/main/3_Databases/12_TimeSeries-Databases/InfluxDB.md)

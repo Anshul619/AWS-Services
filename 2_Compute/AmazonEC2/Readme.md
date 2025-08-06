@@ -3,7 +3,7 @@
 - Instead, you can create virtual machines with [Amazon EC2 - Elastic Compute Cloud](https://aws.amazon.com/ec2/) while managing other server features such as ports, security, and storage. 
 - Spend less time maintaining your own costly physical servers and more time on your strategic projects.
 
-![img.png](../../../HLD-System-Designs/0_HLDUseCasesProblems/AWS_DesignScalableSystemWithRDMS/DesignScalableSystemWithRelationalDBOnAWS.drawio.png)
+![img.png](../../0_UseCaseDesigns/DesignScalableSystemWithRDMS/DesignScalableSystemWithRelationalDBOnAWS.drawio.png)
 
 # EC2, AMI, Root Volumes, EBS
 

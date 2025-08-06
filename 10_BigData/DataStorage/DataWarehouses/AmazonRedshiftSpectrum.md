@@ -4,4 +4,4 @@
 - [Redshift Spectrum]() pushes many compute-intensive tasks, such as predicate filtering and aggregation, down to the Redshift Spectrum layer. 
 - Thus, Redshift Spectrum queries use much less of your cluster's processing capacity than other queries.
 
-![](../../../../HLD-System-Designs/6_BigData/Data-Architecture-ETL-Ingestion-Processing-Analytics.png)
+![](../../../0_UseCaseDesigns/Data-Architecture-ETL-Ingestion-Processing-Analytics.png)

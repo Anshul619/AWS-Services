@@ -1,25 +1,25 @@
 # Amazon DynamoDB
 - [DynamoDB](https://aws.amazon.com/dynamodb/) is a fully managed [key-value & document DB](../../../3_Databases/10_Document-Databases/) service, for fast lookup using primary key.
 - Every record in a DynamoDB database can be considered as a map of attributes and values with a [primary key](Partioning.md) to retrieve the record.
-- All data items are stored on [Solid State Drives (SSDs)](../../../HLD-System-Designs/11_FileStorages/StorageOptions.md), and are replicated across [3 Availability Zones](../../AWS-Global-Architecture-Region-AZ.md) for [high availability](../../../HLD-System-Designs/7a_HighAvailability/Readme.md) and [durability](../../../HLD-System-Designs/3_Databases/1_ACID-Transactions/Durability.md). 
+- All data items are stored on [Solid State Drives (SSDs)](https://github.com/Anshul619/HLD-System-Designs/blob/main/11_FileStorages/StorageOptions.md), and are replicated across [3 Availability Zones](../../AWS-Global-Architecture-Region-AZ.md) for [high availability](https://github.com/Anshul619/HLD-System-Designs/blob/main/7a_HighAvailability/Readme.md) and [durability](https://github.com/Anshul619/HLD-System-Designs/blob/main/3_Databases/1_ACID-Transactions/Durability.md). 
 - With DynamoDB, you can offload the administrative burden of operating and scaling a highly available distributed database cluster, while paying a low price for only what you use.
 
 # :star: Real world use cases of DynamoDB
 
 | Use Case                                                                                        | Remarks                                                                                                                                       |
 |-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [Grab - Order processing/OLTP](../../../HLD-System-Designs/1_TechStacks/Grab/OrderProcessing/Readme.md)            | DynamoDB used as OLTP system for orders processing (with 3 months TTL).                                                                       |
-| [Dropbox - Metadata store](../../../HLD-System-Designs/1_TechStacks/Dropbox/DropboxMetaDataStore.md)               | DynamoDB used as OLTP/hot-storage system, for metadata ingestion.                                                                             |
-| [Image URLs & Metadata](../../../HLD-System-Designs/0_HLDUseCasesProblems/AWS_DesignUploadImageLambdaS3/Readme.md) |                                                                                                                                               |
+| [Grab - Order processing/OLTP](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_TechStacks/Grab/OrderProcessing/Readme.md)            | DynamoDB used as OLTP system for orders processing (with 3 months TTL).                                                                       |
+| [Dropbox - Metadata store](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_TechStacks/Dropbox/DropboxMetaDataStore.md)               | DynamoDB used as OLTP/hot-storage system, for metadata ingestion.                                                                             |
+| [Image URLs & Metadata](../../0_UseCaseDesigns/DesignUploadImageLambdaS3/Readme.md) |                                                                                                                                               |
 | [Amazon Kinesis - Config Store](../../4_MessageBrokers/AmazonKinesis/Readme.md)          |                                                                                                                                               |
-| [Amplitude - Metadata Store](../../../HLD-System-Designs/1_TechStacks/Amplitude/Readme.md)                         |                                                                                                                                               |
+| [Amplitude - Metadata Store](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_TechStacks/Amplitude/Readme.md)                         |                                                                                                                                               |
 | [NGM - Mcafee](https://aws.amazon.com/solutions/case-studies/mcafee-dynamodb-case-study/)       | DynamoDB used as a reliable system to deliver tailored marketing campaign messages to its growing subscriber base of millions of subscribers. |
 
 # Bookstore app on AWS
 
-![](../../../HLD-System-Designs/0_HLDUseCasesProblems/AWS_BookStoreSampleApp/AWS-Bookstore-Demo-App.png)
+![](../../0_UseCaseDesigns/BookStoreSampleApp/AWS-Bookstore-Demo-App.png)
 
-[Read more](../../../HLD-System-Designs/0_HLDUseCasesProblems/AWS_BookStoreSampleApp/Readme.md)
+[Read more](../../0_UseCaseDesigns/BookStoreSampleApp/Readme.md)
 
 # Key Features
 

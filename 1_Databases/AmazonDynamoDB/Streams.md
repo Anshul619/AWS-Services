@@ -1,5 +1,5 @@
 # DynamoDB Streams
-- [DynamoDB Streams](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.Streams) captures a [time-ordered sequence of item-level modifications](../../../HLD-System-Designs/3_Databases/5_Database-Internals/ChangeDataCapture/Readme.md) in any DynamoDB table and stores this information in a log for up to 24 hours. 
+- [DynamoDB Streams](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.Streams) captures a [time-ordered sequence of item-level modifications](https://github.com/Anshul619/HLD-System-Designs/blob/main/3_Databases/5_Database-Internals/ChangeDataCapture/Readme.md) in any DynamoDB table and stores this information in a log for up to 24 hours. 
 - The data about these events appear in the stream in near real time, and in the order that the events occurred.
 
 ![](https://docs.aws.amazon.com/images/amazondynamodb/latest/developerguide/images/HowItWorksStreams.png)
@@ -8,9 +8,9 @@
 
 ## Bookstore app
 
-![](../../../HLD-System-Designs/0_HLDUseCasesProblems/AWS_BookStoreSampleApp/AWS-Bookstore-Demo-App.png)
+![](../../0_UseCaseDesigns/BookStoreSampleApp/AWS-Bookstore-Demo-App.png)
 
-[Read more](../../../HLD-System-Designs/0_HLDUseCasesProblems/AWS_BookStoreSampleApp/Readme.md)
+[Read more](../../0_UseCaseDesigns/BookStoreSampleApp/Readme.md)
 
 # Supported events in DynamoDB
 

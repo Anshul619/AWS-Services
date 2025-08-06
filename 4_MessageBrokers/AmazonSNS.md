@@ -1,6 +1,6 @@
 # Amazon SNS (Amazon Simple Notification Service)
 - [Amazon SNS (Simple Notification Service)](https://aws.amazon.com/sns) is a fully managed messaging service for both **application-to-application (A2A)** and **application-to-person (A2P)** communication.
-- [Amazon SNS vs other message brokers](../../HLD-System-Designs/4_MessageBrokersEDA/KafkaVsRabbitMQVsSQSVsSNS.md)
+- [Amazon SNS vs other message brokers](https://github.com/Anshul619/HLD-System-Designs/blob/main/4_MessageBrokersEDA/KafkaVsRabbitMQVsSQSVsSNS.md)
 
 # Application-to-Person (A2P)
 - It enables applications to send messages to users at scale via SMS, mobile push, and email.
@@ -8,7 +8,7 @@
 
 # Application-to-Application (A2A)
 - It provides high-throughput, push-based, many-to-many messaging between distributed systems.
-- It can be implemented in [microservices, and event-driven serverless](../../HLD-System-Designs/5_MicroServices/Readme.md) applications.
+- It can be implemented in [microservices, and event-driven serverless](https://github.com/Anshul619/HLD-System-Designs/blob/main/5_MicroServices/Readme.md) applications.
 - This pattern also known as [Fanout-pattern](https://aws.amazon.com/getting-started/hands-on/send-fanout-event-notifications/)
 - [Read more](https://docs.aws.amazon.com/sns/latest/dg/sns-system-to-system-messaging.html)
 

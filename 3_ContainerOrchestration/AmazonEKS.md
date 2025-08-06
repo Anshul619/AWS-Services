@@ -1,6 +1,6 @@
 # Amazon EKS - Amazon Elastic Kubernetes Service
-- [Amazon Elastic Kubernetes Service (Amazon EKS)](https://aws.amazon.com/eks/) is a managed container service to run and scale [Kubernetes](../../HLD-System-Designs/9_Container&Orchestration/Kubernates/Readme.md) applications in the cloud or on-premises.
-- Applications running on Amazon EKS are fully compatible with applications running on any standard [Kubernetes](../../HLD-System-Designs/9_Container&Orchestration/Kubernates/Readme.md) environment, whether running in on-premises data centers or public clouds. 
+- [Amazon Elastic Kubernetes Service (Amazon EKS)](https://aws.amazon.com/eks/) is a managed container service to run and scale [Kubernetes](https://github.com/Anshul619/HLD-System-Designs/blob/main/9_Container&Orchestration/Kubernates/Readme.md) applications in the cloud or on-premises.
+- Applications running on Amazon EKS are fully compatible with applications running on any standard [Kubernetes](https://github.com/Anshul619/HLD-System-Designs/blob/main/9_Container&Orchestration/Kubernates/Readme.md) environment, whether running in on-premises data centers or public clouds. 
 
 ![img.png](../16_NetworkingAndContentDelivery/2_ApplicationNetworking/ElasticLoadBalancer/assets/AWS_Elastic_Load_Balancer.png)
 

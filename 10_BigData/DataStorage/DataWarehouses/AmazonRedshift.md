@@ -1,14 +1,14 @@
 # Amazon RedShift
-- [Amazon RedShift](https://aws.amazon.com/redshift/) is a [data warehouse service](../../../../HLD-System-Designs/6_BigData/DataStorage/DataWarehouses/Readme.md) in AWS.
+- [Amazon RedShift](https://aws.amazon.com/redshift/) is a [data warehouse service](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/DataStorage/DataWarehouses/Readme.md) in AWS.
 - [Amazon Redshift]() is not designed for continuous ingestion of data in real time.
 
-![](../../../../HLD-System-Designs/6_BigData/Data-Architecture-ETL-Ingestion-Processing-Analytics.png)
+![](../../../0_UseCaseDesigns/Data-Architecture-ETL-Ingestion-Processing-Analytics.png)
 
 # Features
 
 | Feature                      | Remarks                                                                                                                                                                                                                           |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Amazon Redshift & PostgresQL | [Amazon Redshift]() and [PostgreSQL](../../../../HLD-System-Designs/3_Databases/7_SQL-Databases/Readme.md) have a number of important differences that you must be aware of as you design and develop your data warehouse applications. |
+| Amazon Redshift & PostgresQL | [Amazon Redshift]() and [PostgreSQL](https://github.com/Anshul619/HLD-System-Designs/blob/main/3_Databases/7_SQL-Databases/Readme.md) have a number of important differences that you must be aware of as you design and develop your data warehouse applications. |
 | Redshift Spectrum            | [Amazon Redshift Spectrum](AmazonRedshiftSpectrum.md) can be used to perform in-place querying of data assets in an [Amazon S3-based data lake](../DataLakes/S3DataLake.md).                             |
 
 # General Use Cases

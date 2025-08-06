@@ -1,6 +1,6 @@
 # AWS Lambda
 - [AWS Lambda](https://aws.amazon.com/lambda/) is a compute service that lets you run code without provisioning or managing servers. 
-- AWS Lambda runs your code on a [high-availability compute infrastructure](../../../HLD-System-Designs/7a_HighAvailability/Readme.md) and performs all the administration of compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, code monitoring and logging. 
+- AWS Lambda runs your code on a [high-availability compute infrastructure](https://github.com/Anshul619/HLD-System-Designs/blob/main/7a_HighAvailability/Readme.md) and performs all the administration of compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, code monitoring and logging. 
 - With Lambda, you can run code for virtually any type of application or backend service, including data processing, real-time stream processing, machine learning, WebSockets, IoT backends, mobile backends, and web apps, like your corporate directory app!
 
 ![img.png](assets/Lambda-Architecture.png)
@@ -12,7 +12,7 @@
 | [Stateless](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/aws/aws-quiz.md)                              | [Lambda is stateless](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/main/aws/aws-quiz.md), so it won't remember who a user is in between requests.                                                                                                                                                                                                                                                                                                                                                                                       |
 | [Invocation Methods & Triggers](AWSLambdaInvocationMethods.md)                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [Destinations - On success or error](AWSLambdaDestinations.md)                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [Test locally using AWS SAM CLI](../../0_ServerlessArchitecture/SAM.md)                                                            | [AWS SAM CLI](../../0_ServerlessArchitecture/SAM.md) can be used to test the Lambda function locally.                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [Test locally using AWS SAM CLI](../../13_ServerlessArchitecture/SAM.md)                                                            | [AWS SAM CLI](../../13_ServerlessArchitecture/SAM.md) can be used to test the Lambda function locally.                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | [Function blueprints](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-features.html#gettingstarted-features-blueprints) | When you create [a function](AWSLambdaFunctionHandler.md) in the Lambda console, you can choose to start from scratch, [use a blueprint](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-features.html), or use a container image.<br/>- A blueprint provides sample code that shows how to use Lambda with an AWS service or a popular third-party application.<br/>- Blueprints include sample code and function configuration presets for Node.js and Python runtimes.                                                                           |
 | [IAM Permissions](AWSLambdaFunctionPermissions.md)                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [Scaling Considerations](AWSLambdaScaling.md)                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -40,21 +40,21 @@
 
 ## Upload Image using Amazon S3 and Lambda
 
-![img.png](../../../HLD-System-Designs/0_HLDUseCasesProblems/AWS_DesignUploadImageLambdaS3/UploadImage-Lambda.drawio.png)
+![img.png](../../0_UseCaseDesigns/DesignUploadImageLambdaS3/UploadImage-Lambda.drawio.png)
 
-[Read more](../../../HLD-System-Designs/0_HLDUseCasesProblems/AWS_DesignUploadImageLambdaS3/Readme.md)
+[Read more](../../0_UseCaseDesigns/DesignUploadImageLambdaS3/Readme.md)
 
 ## Design Scalable System on AWS
 
-![img.png](../../../HLD-System-Designs/0_HLDUseCasesProblems/AWS_DesignScalableSystemWithRDMS/DesignScalableSystemWithRelationalDBOnAWS.drawio.png)
+![img.png](../../0_UseCaseDesigns/DesignScalableSystemWithRDMS/DesignScalableSystemWithRelationalDBOnAWS.drawio.png)
 
-[Read more](../../../HLD-System-Designs/0_HLDUseCasesProblems/AWS_DesignScalableSystemWithRDMS/Readme.md)
+[Read more](../../0_UseCaseDesigns/DesignScalableSystemWithRDMS/Readme.md)
 
 ## Bookstore app on AWS
 
-![](../../../HLD-System-Designs/0_HLDUseCasesProblems/AWS_BookStoreSampleApp/AWS-Bookstore-Demo-App.png)
+![](../../0_UseCaseDesigns/BookStoreSampleApp/AWS-Bookstore-Demo-App.png)
 
-[Read more](../../../HLD-System-Designs/0_HLDUseCasesProblems/AWS_BookStoreSampleApp/Readme.md)
+[Read more](../../0_UseCaseDesigns/BookStoreSampleApp/Readme.md)
 
 ## Amazon SNS with Lambda
 
@@ -69,7 +69,7 @@
 [Read more](../AWSStepFunctions/Readme.md)
 
 ## Event Driven Architecture
-- [AWS Lambda]() is an example of an [event-driven architecture](../../../HLD-System-Designs/4_MessageBrokersEDA/EventDrivenArchitecture/Readme.md).
+- [AWS Lambda]() is an example of an [event-driven architecture](https://github.com/Anshul619/HLD-System-Designs/blob/main/4_MessageBrokersEDA/EventDrivenArchitecture/Readme.md).
 - Most AWS services generate events and act as an event source for Lambda.
 - Lambda runs custom code (functions) in response to events.
 - Lambda functions are designed to process these events and, once invoked, may initiate other actions or subsequent events.

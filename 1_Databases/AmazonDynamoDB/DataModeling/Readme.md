@@ -2,7 +2,7 @@
 - [Orders - Single Table Design](OrdersSingleTableDesign.md)
 - [Employee - Relational Modeling](EmployeeOrdersRelationalModeling.md)
 - [Students - Many to Many Relationship](StudentGradesManyToManyRelationship.md)
-- [Grab - Order Processing](../../../../HLD-System-Designs/1_TechStacks/Grab/OrderProcessing/Readme.md)
+- [Grab - Order Processing](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_TechStacks/Grab/OrderProcessing/Readme.md)
 
 # Design Patterns
 
@@ -18,5 +18,5 @@
 - A single table with inverted indexes can usually enable simple queries to create and retrieve the complex hierarchical data structures required by your application.
 
 # GSI overloading
-- The fact that some of these entities use proper names and others use other entity IDs as [sort key](../../../../HLD-System-Designs/3_Databases/3_Scalability-Techniques/PartitioningSharding/PartitionKey/SortKey.md) values allows the same [global secondary index](../SecondaryIndexes.md) to support multiple types of queries.
+- The fact that some of these entities use proper names and others use other entity IDs as [sort key](https://github.com/Anshul619/HLD-System-Designs/blob/main/3_Databases/3_Scalability-Techniques/PartitioningSharding/PartitionKey/SortKey.md) values allows the same [global secondary index](../SecondaryIndexes.md) to support multiple types of queries.
 
