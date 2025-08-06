@@ -12,5 +12,5 @@
 
 | Use Case                                                                                 |
 |------------------------------------------------------------------------------------------|
-| [Swiggy - Capturing CDC using S3 data lake](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_TechStacks/Swiggy.md) |
+| [Swiggy - Capturing CDC using S3 data lake](https://github.com/Anshul619/Real-World-Tech-Stacks/tree/main/Swiggy.md) |
 
