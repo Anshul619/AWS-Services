@@ -2,7 +2,7 @@
 - [Orders - Single Table Design](OrdersSingleTableDesign.md)
 - [Employee - Relational Modeling](EmployeeOrdersRelationalModeling.md)
 - [Students - Many to Many Relationship](StudentGradesManyToManyRelationship.md)
-- [Grab - Order Processing](https://github.com/Anshul619/Real-World-Tech-Stacks/tree/main/Grab/OrderProcessing/Readme.md)
+- [Grab - Order Processing](https://github.com/Anshul619/Tech-Stacks-Live-Apps/tree/main/Grab/OrderProcessing/Readme.md)
 
 # Design Patterns
 

@@ -8,11 +8,11 @@
 
 | Use Case                                                                                        | Remarks                                                                                                                                       |
 |-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [Grab - Order processing/OLTP](https://github.com/Anshul619/Real-World-Tech-Stacks/tree/main/Grab/OrderProcessing/Readme.md)           | DynamoDB used as OLTP system for orders processing (with 3 months TTL).                                                                       |
-| [Dropbox - Metadata store](https://github.com/Anshul619/Real-World-Tech-Stacks/tree/main/Dropbox/Readme.md)               | DynamoDB used as OLTP/hot-storage system, for metadata ingestion.                                                                             |
+| [Grab - Order processing/OLTP](https://github.com/Anshul619/Tech-Stacks-Live-Apps/tree/main/Grab/OrderProcessing/Readme.md)           | DynamoDB used as OLTP system for orders processing (with 3 months TTL).                                                                       |
+| [Dropbox - Metadata store](https://github.com/Anshul619/Tech-Stacks-Live-Apps/tree/main/Dropbox/Readme.md)               | DynamoDB used as OLTP/hot-storage system, for metadata ingestion.                                                                             |
 | [Image URLs & Metadata](../../0_UseCaseDesigns/DesignUploadImageLambdaS3/Readme.md) |                                                                                                                                               |
 | [Amazon Kinesis - Config Store](../../4_MessageBrokers/AmazonKinesis/Readme.md)          |                                                                                                                                               |
-| [Amplitude - Metadata Store](https://github.com/Anshul619/Real-World-Tech-Stacks/tree/main/Amplitude/Readme.md)                         |                                                                                                                                               |
+| [Amplitude - Metadata Store](https://github.com/Anshul619/Tech-Stacks-Live-Apps/tree/main/Amplitude/Readme.md)                         |                                                                                                                                               |
 | [NGM - Mcafee](https://aws.amazon.com/solutions/case-studies/mcafee-dynamodb-case-study/)       | DynamoDB used as a reliable system to deliver tailored marketing campaign messages to its growing subscriber base of millions of subscribers. |
 
 # Bookstore app on AWS
