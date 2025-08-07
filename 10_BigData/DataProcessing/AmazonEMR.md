@@ -11,7 +11,7 @@
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Apache Spark](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/DataProcessing/ApacheSpark/Readme.md)                                                                                   |
 | [Apache Hadoop](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/ApacheHadoop/Readme.md)                                                                                                |
-| [HBase](https://github.com/Anshul619/HLD-System-Designs/blob/main/3_Databases/11_WideColumn-Databases/ApacheHBase.md)                                                                                       |
+| [HBase](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_Databases/11_WideColumn-Databases/ApacheHBase.md)                                                                                       |
 | [Hive](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/DataConsumption/ApacheHive.md), [Presto](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/DataConsumption/PrestoDB.md), and other big data workloads. |
 
 # EMR File System (EMRFS)

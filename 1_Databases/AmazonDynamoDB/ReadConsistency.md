@@ -1,5 +1,5 @@
 # Read Consistency - DynamoDB
-- DynamoDB supports [eventually consistent and strongly consistent reads](https://github.com/Anshul619/HLD-System-Designs/blob/main/3_Databases/4_Consistency-Replication/Readme.md).
+- DynamoDB supports [eventually consistent and strongly consistent reads](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_Databases/4_Consistency-Replication/Readme.md).
 
 |                | :star: Eventually Consistent Reads | Strongly Consistent Reads        |
 |----------------|------------------------------------|----------------------------------|

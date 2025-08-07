@@ -1,2 +1,2 @@
 # Amazon Keyspaces
-- A scalable, highly available, and managed [Apache Cassandra](https://github.com/Anshul619/HLD-System-Designs/blob/main/3_Databases/11_WideColumn-Databases/ApacheCasandra.md)–compatible database service 
+- A scalable, highly available, and managed [Apache Cassandra](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_Databases/11_WideColumn-Databases/ApacheCasandra.md)–compatible database service 

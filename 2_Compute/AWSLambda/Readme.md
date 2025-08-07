@@ -1,6 +1,6 @@
 # AWS Lambda
 - [AWS Lambda](https://aws.amazon.com/lambda/) is a compute service that lets you run code without provisioning or managing servers. 
-- AWS Lambda runs your code on a [high-availability compute infrastructure](https://github.com/Anshul619/HLD-System-Designs/blob/main/7a_HighAvailability/Readme.md) and performs all the administration of compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, code monitoring and logging. 
+- AWS Lambda runs your code on a [high-availability compute infrastructure](https://github.com/Anshul619/HLD-System-Designs/blob/main/5_HighAvailability/Readme.md) and performs all the administration of compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, code monitoring and logging. 
 - With Lambda, you can run code for virtually any type of application or backend service, including data processing, real-time stream processing, machine learning, WebSockets, IoT backends, mobile backends, and web apps, like your corporate directory app!
 
 ![img.png](assets/Lambda-Architecture.png)
@@ -69,7 +69,7 @@
 [Read more](../AWSStepFunctions/Readme.md)
 
 ## Event Driven Architecture
-- [AWS Lambda]() is an example of an [event-driven architecture](https://github.com/Anshul619/HLD-System-Designs/blob/main/4_MessageBrokersEDA/EventDrivenArchitecture/Readme.md).
+- [AWS Lambda]() is an example of an [event-driven architecture](https://github.com/Anshul619/HLD-System-Designs/blob/main/2_MessageBrokersEDA/EventDrivenArchitecture/Readme.md).
 - Most AWS services generate events and act as an event source for Lambda.
 - Lambda runs custom code (functions) in response to events.
 - Lambda functions are designed to process these events and, once invoked, may initiate other actions or subsequent events.

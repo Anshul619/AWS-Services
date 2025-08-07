@@ -2,7 +2,7 @@
 - [Amazon Elastic Container Registry (Amazon ECR)](https://aws.amazon.com/ecr/) is a fully managed container registry offering high-performance hosting, so you can reliably deploy application images and artifacts anywhere. (store, manage, deploy Docker container images)
 - Amazon ECR store, manage & deploy [Docker container images](https://github.com/Anshul619/HLD-System-Designs/blob/main/9_Container&Orchestration/Docker/Readme.md).
 - ECR is integrated with [ECS](../2_Compute) & [EKS](AmazonEKS.md), simplifying our development to production workflow.
-- ECR hosts our images in [highly available](https://github.com/Anshul619/HLD-System-Designs/blob/main/7a_HighAvailability/Readme.md) and [scalable architecture](https://github.com/Anshul619/HLD-System-Designs/blob/main/7_Scalability).
+- ECR hosts our images in [highly available](https://github.com/Anshul619/HLD-System-Designs/blob/main/5_HighAvailability/Readme.md) and [scalable architecture](https://github.com/Anshul619/HLD-System-Designs/blob/main/4_Scalability).
 
 ![](https://play.whizlabs.com/frontend/web/media/task_id_199/ecr_lab.png)
 

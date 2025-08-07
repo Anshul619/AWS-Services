@@ -7,7 +7,7 @@
 | Title                                         | Remarks                                                                                                                                                        |
 |-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Improve latency for end-users                 | [Multi-region](../../AWS-Global-Architecture-Region-AZ.md) backend setup might be needed for dynamic API calls, to improve latency (roughly 150-400 ms). |
-| Disaster Recovery & Fault Tolerance           | [Multi-region](../../AWS-Global-Architecture-Region-AZ.md) setup helps in the [disaster recovery](https://github.com/Anshul619/HLD-System-Designs/blob/main/7a_HighAvailability/DisasterRecovery.md)         |
+| Disaster Recovery & Fault Tolerance           | [Multi-region](../../AWS-Global-Architecture-Region-AZ.md) setup helps in the [disaster recovery](https://github.com/Anshul619/HLD-System-Designs/blob/main/5_HighAvailability/DisasterRecovery.md)         |
 | Business Requirements like GDPR, Localization |                                                                                                                                                                |
 
 # AWS Global Services
@@ -22,9 +22,9 @@
 
 | Title                            | Remarks                                                                                                                                                                                                                                          |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Reliable data replication        | [Eventual consistency](https://github.com/Anshul619/HLD-System-Designs/blob/main/3_Databases/4_Consistency-Replication/Readme.md) would have to be done, as databases are spread across multi-regions.                                                     |
+| Reliable data replication        | [Eventual consistency](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_Databases/4_Consistency-Replication/Readme.md) would have to be done, as databases are spread across multi-regions.                                                     |
 | Global network infrastructure    | [AWS Regions](../../AWS-Global-Architecture-Region-AZ.md) are connected to a private global network backbone, which provides lower cost and more consistent cross-region network latency when compared with the public internet. |
-| Build Stateless applications     | [Read more](https://github.com/Anshul619/HLD-System-Designs/blob/main/7_Scalability/StatefulVsStateless.md)                                                                                                                                                               |
+| Build Stateless applications     | [Read more](https://github.com/Anshul619/HLD-System-Designs/blob/main/4_Scalability/StatefulVsStateless.md)                                                                                                                                                               |
 | DNS routing using Amazon Route53 | [Read more](../../16_NetworkingAndContentDelivery/1_EdgeNetworking/AmazonRoute53/Readme.md)                                                                                                                                       |
 
 # Source(s) and further reading

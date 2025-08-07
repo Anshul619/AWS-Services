@@ -17,6 +17,6 @@
 |                  | Remarks                                                                           |
 |------------------|-----------------------------------------------------------------------------------|
 | Cost             | Additional storage and throughput cost                                            |
-| Consistency      | [Eventually consistent](https://github.com/Anshul619/HLD-System-Designs/blob/main/3_Databases/4_Consistency-Replication/Readme.md) |
+| Consistency      | [Eventually consistent](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_Databases/4_Consistency-Replication/Readme.md) |
 | Management       | Create, maintain, update indexes                                                  |
 | Write consistent | Hot keys                                                                          |
