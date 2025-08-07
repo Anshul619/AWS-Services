@@ -4,6 +4,10 @@
 
 ![](https://k21academy.com/wp-content/uploads/2021/03/php-project-release-pipeline-1536x758.png)
 
+Note - CodeCommit is deprecated in 2024.
+
+# Services
+
 | Service                                                                                | Alternatives | Description                                                                                                                                                                                                                                            |
 |----------------------------------------------------------------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [AWS CodeBuild](https://aws.amazon.com/codebuild/)                                     | Jenkins     | [AWS CodeBuild](https://aws.amazon.com/codebuild/) is a fully managed [continuous integration service](https://github.com/Anshul619/HLD-System-Designs/blob/main/13_DeploymentAndOps/CI&CD/Readme.md) that compiles source code, runs tests, and produces ready-to-deploy software packages.                         |
