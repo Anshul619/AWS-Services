@@ -9,7 +9,7 @@
 
 | Concept       | Description                                                                                                                                                                                                                             |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Partition     | A partition is an allocation of storage for a table, backed by [solid state drives (SSDs)](https://github.com/Anshul619/HLD-System-Designs/blob/main/11_FileStorages/StorageOptions.md) and automatically replicated across multiple Availability Zones within an AWS Region. |
+| Partition     | A partition is an allocation of storage for a table, backed by [solid state drives (SSDs)](https://github.com/Anshul619/HLD-System-Designs/blob/main/9_FileStorages/StorageOptions.md) and automatically replicated across multiple Availability Zones within an AWS Region. |
 | Partition key | DynamoDB uses the value of the [partition key](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_Databases/3_Scalability-Techniques/PartitioningSharding/PartitionKey/Readme.md) as input to an internal hash function. <br/>- Hence it must be specified in both read and write operations.   |
 | Primary Key   | When you create a table, in addition to the table name, you must specify the primary key of the table. <br/>- The primary key uniquely identifies each item in the table, so that no two items can have the same key.                   |
 

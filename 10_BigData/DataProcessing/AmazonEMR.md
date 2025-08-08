@@ -15,7 +15,7 @@
 | [Hive](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/DataConsumption/ApacheHive.md), [Presto](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/DataConsumption/PrestoDB.md), and other big data workloads. |
 
 # EMR File System (EMRFS)
-- The [EMR File System (EMRFS)](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-fs.html) is an implementation of [HDFS](https://github.com/Anshul619/HLD-System-Designs/blob/main/11_FileStorages/ApacheHDFS.md) that all Amazon EMR clusters use for reading and writing regular files from [Amazon EMR]() directly to [Amazon S3](../../6_FileStorages/3_S3ObjectStorage/Readme.md). 
+- The [EMR File System (EMRFS)](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-fs.html) is an implementation of [HDFS](https://github.com/Anshul619/HLD-System-Designs/blob/main/9_FileStorages/ApacheHDFS.md) that all Amazon EMR clusters use for reading and writing regular files from [Amazon EMR]() directly to [Amazon S3](../../6_FileStorages/3_S3ObjectStorage/Readme.md). 
 - [EMRFS](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-fs.html) provides the convenience of storing persistent data in [Amazon S3](../../6_FileStorages/3_S3ObjectStorage/Readme.md) for use with [Hadoop](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/ApacheHadoop/Readme.md) while also providing features like data encryption.
 
 # Node Types
