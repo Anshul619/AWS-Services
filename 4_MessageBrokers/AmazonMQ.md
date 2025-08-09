@@ -1,4 +1,3 @@
-
 # Amazon MQ
 - [Amazon MQ](https://aws.amazon.com/amazon-mq) is a managed message broker service for [Apache ActiveMQ](https://github.com/Anshul619/HLD-System-Designs/blob/main/2_MessageBrokersEDA/ActiveMQ.md) and [RabbitMQ](https://github.com/Anshul619/HLD-System-Designs/blob/main/2_MessageBrokersEDA/RabbitMQ.md) that makes it easy to set up and operate message brokers on AWS.
 - Amazon MQ reduces your operational responsibilities by managing the provisioning, setup, and maintenance of message brokers for you.

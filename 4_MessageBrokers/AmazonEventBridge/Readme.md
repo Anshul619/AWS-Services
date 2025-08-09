@@ -2,14 +2,12 @@
 # Amazon EventBridge
 - [Amazon EventBridge](https://aws.amazon.com/eventbridge/) is a serverless event bus that lets you receive, filter, transform, route, and deliver events. 
 - Using [Amazon EventBridge](), we can build [event-driven applications at scale](https://github.com/Anshul619/HLD-System-Designs/blob/main/3_MicroServices) across AWS, existing systems, or SaaS applications.
-- It uses the [Amazon CloudWatch Events API](../8_ObservabilityLogs/AmazonCloudWatch/Readme.md) but also includes more functionality, like the ability to ingest events from SaaS apps.
+- It uses the [Amazon CloudWatch Events API](../../8_ObservabilityLogs/AmazonCloudWatch/Readme.md) but also includes more functionality, like the ability to ingest events from SaaS apps.
 - :star: [Amazon EventBridge vs others](https://github.com/Anshul619/HLD-System-Designs/blob/main/2_MessageBrokersEDA/KafkaVsRabbitMQVsSQSVsSNS.md)
 
-![](assets/EventBridge.png)
+![](EventBridge.png)
 
 # Key Features
-
-![](https://docs.aws.amazon.com/images/eventbridge/latest/userguide/images/bus-overview_eventbridge_conceptual.svg)
 
 | Feature            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -17,18 +15,19 @@
 | Event Bridge rules | [An event bridge rule](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html) matches incoming events and sends them to targets for processing.<br/>- A single rule can send an event to multiple targets, which then run in parallel.<br/>- Rules are based either on an [event pattern](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-event-patterns.html) or [a schedule]((https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-create-rule-schedule.html)). |
 | Event Pattern      | [An event pattern](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-event-patterns.html) defines the event structure and the fields that a rule matches.                                                                                                                                                                                                                                                                                                                                   |
 | Event Schedule     | Rules that are based on a [schedule](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-create-rule-schedule.html) perform an action at regular intervals.                                                                                                                                                                                                                                                                                                                                   |
-| Archives           | For [disaster recovery](https://github.com/Anshul619/HLD-System-Designs/blob/main/5_HighAvailability/FaultTolerance.md), auditing purposes & replaying purposes event are also set up to be archived.                                                                                                                                                                                                                                                                                                                                                    |
+| Archives           | For [disaster recovery](https://github.com/Anshul619/HLD-System-Designs/blob/main/5_HighAvailability/FaultTolerance.md), auditing purposes & replaying purposes event are also set up to be archived.                                                                                                                                                                                                                                                                                                 |
 | Replays            | To be able to debug the behaviour of the system based for older events, we can use the [replays](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-replay-archived-event.html).                                                                                                                                                                                                                                                                                                             |
+| Dead-letter queue  | To avoid losing events after they fail to be delivered to a target, you can configure a [dead-letter queue (DLQ)](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rule-dlq.html) and send all failed events to it for processing later.                                                                                                                                                                                                                                                   |
 
 # Available Target Services
-- [AWS Lambda](../2_Compute/AWSLambda/Readme.md)
-- [Amazon SQS](AmazonSQS/Readme.md)
-- [Amazon SNS](AmazonSNS.md)
-- [AWS Step Functions](../2_Compute/AWSStepFunctions/Readme.md)
-- [Amazon Kinesis Data Streams](AmazonKinesis/Readme.md)
-- [Amazon Data Firehouse](../10_BigData/DataConnectors/AmazonDataFirehouse/Readme.md)
-- [API Gateway](../16_NetworkingAndContentDelivery/2_ApplicationNetworking/AmazonAPIGateway/Readme.md)
-- [Amazon Redshift Clusters](../10_BigData/DataStorage/DataWarehouses/AmazonRedshift.md)
+- [AWS Lambda](../../2_Compute/AWSLambda/Readme.md)
+- [Amazon SQS](../AmazonSQS/Readme.md)
+- [Amazon SNS](../AmazonSNS.md)
+- [AWS Step Functions](../../2_Compute/AWSStepFunctions/Readme.md)
+- [Amazon Kinesis Data Streams](../AmazonKinesis/Readme.md)
+- [Amazon Data Firehouse](../../10_BigData/DataConnectors/AmazonDataFirehouse/Readme.md)
+- [API Gateway](../../16_NetworkingAndContentDelivery/2_ApplicationNetworking/AmazonAPIGateway/Readme.md)
+- [Amazon Redshift Clusters](../../10_BigData/DataStorage/DataWarehouses/AmazonRedshift.md)
 - [SAAS Integrations - Partner Sources](https://aws.amazon.com/eventbridge/integrations/)
 
 # References
