@@ -1,5 +1,5 @@
 # Amazon SQS (Simple Queue Service)
-- [Amazon SQS (Simple Queue Service)](https://aws.amazon.com/sqs/) is a fully managed message queuing service that enables you to [decouple and scale microservices](https://github.com/Anshul619/HLD-System-Designs/blob/main/7_ArchitecturePatterns/EventDrivenArchitecture/Readme.md), [distributed systems](https://github.com/Anshul619/HLD-System-Designs/blob/main/4_Scalability), and [serverless applications](../../13_ServerlessArchitecture/Readme.md).
+- [Amazon SQS (Simple Queue Service)](https://aws.amazon.com/sqs/) is a fully managed message queuing service that enables you to [decouple and scale microservices](https://github.com/Anshul619/HLD-System-Designs/blob/main/7_ArchitecturePatterns/EventDrivenArchitecture/Readme.md), [distributed systems](https://github.com/Anshul619/HLD-System-Designs/blob/main/4_Scalability), and [serverless applications](../../13_Serverless/Readme.md).
 - :star: [Amazon SQS vs others](https://github.com/Anshul619/HLD-System-Designs/blob/main/2_MessageBrokersEDA/KafkaVsRabbitMQVsSQSVsSNS.md)  
 
 ![](../assets/FanOutPatternSQSSNS.png)
