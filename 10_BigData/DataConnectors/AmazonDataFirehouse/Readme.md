@@ -1,5 +1,5 @@
 # Amazon Data Firehouse
-- [Amazon Kinesis Data Firehose](https://aws.amazon.com/kinesis/data-firehose/) is the easiest way to [extract, transform, and load data streams (ETL)](https://github.com/Anshul619/HLD-System-Designs/blob/main/6_BigData/ETL.md) into various [data stores](../../../1_Databases), [data lakes](../../DataStorage/DataLakes) & [analytics services](../../DataConsumption), for near real-time analytics with existing business intelligence tools.
+- [Amazon Kinesis Data Firehose](https://aws.amazon.com/kinesis/data-firehose/) is the easiest way to extract, transform, and load data streams (ETL) into various [data stores](../../../1_Databases), [data lakes](../../DataStorage/DataLakes) & [analytics services](../../DataConsumption), for near real-time analytics with existing business intelligence tools.
 - It is a fully managed service that automatically scales to match the throughput of your data and requires no ongoing administration. 
 - It can also batch, compress, and encrypt the data before loading it, minimizing the amount of storage used at the destination and increasing security.
 - You cannot set up multiple consumers for Kinesis Data Firehose delivery streams as it can dump data in a single data repository at a time.
@@ -12,16 +12,16 @@
 
 # Supported Data Destinations
 
-| Data Destinations                                                                             | Destination Type                                      |
-|-----------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| [Amazon S3](../../../6_FileStorages/3_S3ObjectStorage/Readme.md)                           | [AWS data stores](../../../1_Databases)        |
-| [S3 Data Lake](../../DataStorage/DataLakes/S3DataLake.md)                                     | [Data Lakes](../../DataStorage/DataLakes)             |
-| [Amazon Redshift](../../DataStorage/DataWarehouses/AmazonRedshift.md)                         | [AWS data stores](../../../1_Databases)        |
-| [Amazon OpenSearch](../../../1_Databases/AmazonOpenSearch/Readme.md)         | [AWS data stores](../../../1_Databases)        |
-| [NewRelic](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html) | Logs/Analytics Tools                                  |
-| [MongoDB](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_Databases/10_Document-Databases/MongoAtlas/Readme.md)                           | [Open Source data store](../../../1_Databases) |
-| Splunk, Datadog, Dynatrace, Sumo Logic, LogicMonitor etc.                                     | Logs/Analytics Tools                                  |
-| HTTP End Point as destination                                                                 | Custom                                                |
+| Data Destinations                                                                                                           | Destination Type                               |
+|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
+| [Amazon S3](../../../6_FileStorages/3_S3ObjectStorage/Readme.md)                                                            | [AWS data stores](../../../1_Databases)        |
+| [S3 Data Lake](../../DataStorage/DataLakes/S3DataLake.md)                                                                   | [Data Lakes](../../DataStorage/DataLakes)      |
+| [Amazon Redshift](../../DataStorage/DataWarehouses/AmazonRedshift.md)                                                       | [AWS data stores](../../../1_Databases)        |
+| [Amazon OpenSearch](../../../1_Databases/AmazonOpenSearch/Readme.md)                                                        | [AWS data stores](../../../1_Databases)        |
+| [NewRelic](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html)                               | Logs/Analytics Tools                           |
+| [MongoDB](https://github.com/Anshul619/HLD-System-Designs/blob/main/1_Databases/10_Document-Databases/MongoAtlas/Readme.md) | [Open Source data store](../../../1_Databases) |
+| Splunk, Datadog, Dynatrace, Sumo Logic, LogicMonitor etc.                                                                   | Logs/Analytics Tools                           |
+| HTTP End Point as destination                                                                                               | Custom                                         |
 
 [Read more](https://aws.amazon.com/kinesis/data-firehose/faqs/)
 
